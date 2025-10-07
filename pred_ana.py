@@ -6,7 +6,7 @@ import pickle
 
 
 def load_model():
-    with  open(r"D:\ml project\file\student_performance1.pkl",'rb') as file:
+    with  open("student_performance1.pkl",'rb') as file:
         model,scaler,le=pickle.load(file)
     return model,scaler,le
 
@@ -47,3 +47,4 @@ if __name__ == "__main__":
     main()
 
     
+
